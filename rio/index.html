@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<head>
+<title> La Chorrera: El Río </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+<meta name="og:title" property="og:title" content="La Chorrera" />
+<meta name="og:description" property="og:description" content="" />
+<meta property="og:image" content="" />
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded&family=Inconsolata&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="./assets/Botón Casa.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<header>
+  <!--navmenu-->
+
+ <div class="dropdown" style="float:right;">
+  <button class="dropbtn"><img src="../assets/Menú desplegable/boton_bote.png" height="40"></button>
+
+    <div class="dropdown-content">
+      <a href="../rio/index.html"><img src="../assets/Menú desplegable/boton_rio.png" width="130"></a>
+      <a href="../casa/index.html"><img src="../assets/Menú desplegable/boton_casa.png" width="130"></a>
+      <a href="../comunidad/index.html"><img src="../assets/Menú desplegable/boton_familia.png" width="130"></a>
+      <a href="../selva/index.html"><img src="../assets/Menú desplegable/boton_selva.png" width="130"></a>
+      <a href="../autores/index.html"><img src="../assets/Menú desplegable/boton_creditos.png" width="130"></a>
+      <a href="#"><img src="../assets/Menú desplegable/boton_textos.png" width="130"></a>
+      <a href="../index.html"><img src="../assets/Menú desplegable/boton_inicio.png" width="130"></a>
+    </div>
+  </div>
+  
+</header>
+
+
+<body>
+  <!--fondo-->
+  <div id="rio_00"> 
+  <img src="Rio_fondo.jpg"  width="100%" height="">
+  </div>
+
+
+ 
+
+ 
+  <!--titulo-->
+  <div id="rio_i0"> 
+    <img src="Rio_titulo.png"  width="60%" height="">
+  </div>
+ 
+  <!--video1-->
+    <div id="rio_v1">
+    <iframe width="720" height="480" src="https://www.youtube.com/embed/T68Tl7YU8fE?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+ 
+  <!--fichatecnicav1-->
+  <div id="rio_t1"> 
+    <h2>
+      <b>—El Río</b>. Idea y cámara por Omar Rincón. Edición por Gabriel Linares 
+    </h2>
+  </div>
+ 
+  <!--video2-->
+  <div id="rio_v5">
+    <iframe width="720" height="480" src="https://www.youtube.com/embed/j0SRIKdowrM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+ 
+  <!--fichatecnicav2-->
+  <div id="rio_t5"> 
+    <h2>
+      <b>—La Chorrera</b>. Idea y cámara por Omar Rincón. Edición por Gabriel Linares 
+    </h2>
+  </div>
+
+  <!--botonsubir-->
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="../assets/Flecha.png" alt="casa1" width="" height=""></button>
+  <script>
+    var mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+</body>
+</html>
