@@ -1,0 +1,107 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  user-select: none;
+  margin: 0 auto; 
+  font-family: 'Inconsolata', monospace;
+  /*overflow: hidden;*/
+}
+
+
+
+body {
+  background-color: black;
+  background-image: url("./Créditos.jpg");
+  background-size: 100% 100vh;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 100%;
+  place-items: center center;
+  margin: 0 auto; 
+}
+
+p{
+  position: absolute;
+  top: 410%;
+}
+
+
+
+.return {
+  padding: 1vh;
+  transform: rotate(-0.25turn);
+  position: fixed; 
+}
+
+
+.dropbtn {
+  padding: 1vh;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.dropdown {
+  position: fixed;
+  right: 0%;
+  z-index: 10000;
+  display: inline-block;
+  background-color: transparent;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: none;
+  background-image: url("../assets/Menú desplegable/Liston de madera blanco.png");
+  background-size: contain;
+  background-position: 37% 30%;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  min-width: 160px;
+  /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+  z-index: 10000;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: none;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgba(255, 255, 255, 0.6); }
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: transparent;}
+
+
+
+#img_bg {
+  object-fit: cover;
+  width: auto;
+  height: auto;
+  
+}
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 6px;
+  right: 6px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  transition: 0.3s;
+}

@@ -1,0 +1,228 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  user-select: none;
+  margin: 0 auto; 
+  font-family: 'Inconsolata', monospace;
+  /*overflow: hidden;*/
+}
+
+
+
+body {
+  background-color: black;
+  background-size: contain;
+  background-image: url("../assets/Bibliografía.png"); /* The image used */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  place-items: center center;
+  margin: 0 auto; 
+}
+
+
+
+
+
+.return {
+  padding: 1vh;
+  transform: rotate(-0.25turn);
+  position: fixed; 
+}
+
+
+.dropbtn {
+  padding: 1vh;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.dropdown {
+  position: fixed;
+  right: 0%;
+  z-index: 10000;
+  display: inline-block;
+  background-color: transparent;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: none;
+  background-image: url("../assets/Menú desplegable/Liston de madera blanco.png");
+  background-size: contain;
+  background-position: 37% 30%;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  min-width: 160px;
+  /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+  z-index: 10000;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: none;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgba(255, 255, 255, 0.6); }
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: transparent;}
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fff;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 1vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  top: 30%;
+  position: absolute;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 6px;
+  right: 6px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+
+#text_i0{
+  position: absolute;
+  padding: 1%;
+  left: 24%;
+  max-width: 60%;
+  top: 7%;
+  right: auto;
+  z-index: 100;
+}
+
+
+#T1{
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  display: block;
+}
+
+
+#T2{
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  display: block;
+}
+
+
+#T3{
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  display: block;
+}
+
+
+#T4{
+  position: absolute;
+  top: 110%;
+  left: 10%;
+  display: block;
+}
+
+
+#T5{
+  position: absolute;
+  top: 110%;
+  left: 40%;
+  display: block;
+}
+
+
+#T6{
+  position: absolute;
+  top: 110%;
+  left: 70%;
+  display: block;
+}

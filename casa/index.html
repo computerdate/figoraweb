@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<head>
+<title> La Chorrera: La Casa </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+<meta name="og:title" property="og:title" content="La Chorrera" />
+<meta name="og:description" property="og:description" content="" />
+<meta property="og:image" content="" />
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded&family=Inconsolata&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="./assets/Botón Casa.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+
+<header>
+<!--navmenu-->
+
+ <div class="dropdown" style="float:right;">
+  <button class="dropbtn"><img src="../assets/Menú desplegable/boton_bote.png" height="40"></button>
+
+    <div class="dropdown-content">
+      <a href="../rio/index.html"><img src="../assets/Menú desplegable/boton_rio.png" width="130"></a>
+      <a href="#"><img src="../assets/Menú desplegable/boton_casa.png" width="130"></a>
+      <a href="../comunidad/index.html"><img src="../assets/Menú desplegable/boton_familia.png" width="130"></a>
+      <a href="../selva/index.html"><img src="../assets/Menú desplegable/boton_selva.png" width="130"></a>
+      <a href="../autores/index.html"><img src="../assets/Menú desplegable/boton_creditos.png" width="130"></a>
+      <a href="../bibliografia/index.html"><img src="../assets/Menú desplegable/boton_textos.png" width="130"></a>
+      <a href="../index.html"><img src="../assets/Menú desplegable/boton_inicio.png" width="130"></a>
+    </div>
+  </div>
+  
+</header>
+
+
+<body>
+
+  <!--fondo-->
+  <div id="casa_00">
+  <img src="Casa_fondo.jpg" alt="casa1" width="100%" height="">
+  </div>
+
+  <!--titulo-->
+  <div id="casa_i1"> 
+    <img src="Casa_titulo.png"  width="50%" height="">
+  </div>
+
+  <!--link1-->
+  <div id="casa_l1"> 
+    <h2>
+      <a href="./LasVocesDeMilan/index.html" target="_self">Texto completo</a>
+    </h2>
+  </div>
+
+<!--link2-->
+  <div id="casa_l3_conversacion"> 
+    <h2>
+      <a href="./conversacion/index.html" target="_self"><img src="../assets/La Casa/La Conversación/(B) La conversación.png"  width="100%" height=""></a>
+    </h2>
+  </div>
+
+  <!--link3-->
+  <div id="casa_l3_mambe"> 
+    <h2>
+      <a href="./mambe/index.html" target="_self"><img src="../assets/La Casa/El Mambe/(B) El mambe.png"  width="100%" height=""></a>
+    </h2>
+  </div>
+
+  <!--link4-->
+  <div id="casa_l3_alimento"> 
+    <h2>
+      <a href="./alimento/index.html" target="_self"><img src="../assets/La Casa/El Alimento/(B) El alimento.png"  width="100%" height=""></a>
+    </h2>
+  </div>
+
+  <!--link5-->
+  <div id="casa_l3_lenguaje"> 
+    <h2>
+      <a href="./lenguaje/index.html" target="_self"><img src="../assets/La Casa/El Lenguaje/(B) El lenguaje.png"  width="100%" height=""></a>
+    </h2>
+  </div>
+
+  <!--video1-->
+<div id="casa_v4">
+  <iframe width="720" height="480" src="https://www.youtube.com/embed/oLu8DOfbdn8?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<!--fichatecnicavid1-->
+<div id="casa_t4"> 
+  <h2>
+    <b>—Habitar</b>. Idea y cámara por Omar Rincón. Edición por Gabriel Linares 
+  </h2>
+</div>
+
+
+
+
+<!--botonsubida-->
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="../assets/Flecha.png" alt="casa1" width="" height=""></button>
+  <script>
+  var mybutton = document.getElementById("myBtn");
+  window.onscroll = function() {scrollFunction()};
+  function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+</body>
+</html>
