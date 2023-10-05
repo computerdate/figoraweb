@@ -1,0 +1,20 @@
+
+  body {
+    background-image: url("../assets/Descripción\ desplegable.png");
+    /*background-color: white;*/
+    background-size: contain;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    font-family: 'Dia', helvetica, arial, sans-serif;
+    font-style: normal;
+    font-size: 9vw;  
+    color: white;
+    overflow: auto;    
+    }
+
+
+
+  

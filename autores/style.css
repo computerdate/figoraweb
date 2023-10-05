@@ -12,9 +12,9 @@
 
 body {
   background-color: black;
-  background-image: url("./Créditos.jpg");
+  /*background-image: url("./Créditos.jpg");*/
   background-size: 100% 100vh;
-  background-position: top center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;

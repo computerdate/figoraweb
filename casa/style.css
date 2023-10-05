@@ -21,8 +21,6 @@ body {
   overflow-x: hidden;
 }
 
-
-
 .dropbtn {
   padding: 1vh;
   font-size: 16px;
@@ -94,8 +92,12 @@ body {
   padding: 0.5%;
   left: auto;
   max-width: 25%;
-  top: 55%;
-  right: 19%;
+  top: 105%;
+  right: 35%;
+}
+
+#casa_l1:hover{
+  filter: drop-shadow(0 0 0.5rem rgb(255, 255, 255));
 }
 
 /*--link2--*/
@@ -109,6 +111,10 @@ body {
   z-index: 100;
 }
 
+#casa_l3_conversacion:hover{
+  filter: drop-shadow(0 0 0.5rem rgb(255, 255, 255));
+}
+
 /*--link3--*/
 #casa_l3_mambe{
   position: absolute;
@@ -118,6 +124,10 @@ body {
   top: 290%;
   right: auto;
   z-index: 100;
+}
+
+#casa_l3_mambe:hover{
+  filter: drop-shadow(0 0 0.5rem rgb(255, 255, 255));
 }
 
 /*--link4--*/
@@ -131,6 +141,10 @@ body {
   z-index: 100;
 }
 
+#casa_l3_alimento:hover{
+  filter: drop-shadow(0 0 0.5rem rgb(255, 255, 255));
+}
+
 /*--link5--*/
 #casa_l3_lenguaje{
   position: absolute;
@@ -140,6 +154,10 @@ body {
   top: 325%;
   right: auto;
   z-index: 100;
+}
+
+#casa_l3_lenguaje:hover{
+  filter: drop-shadow(0 0 0.5rem rgb(255, 255, 255));
 }
 
 /*--video1--*/
