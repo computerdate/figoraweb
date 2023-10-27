@@ -223,3 +223,17 @@ body {
   z-index: 100;
   right: auto;
 }
+
+/*1536px 764px res*/
+@media screen and (max-width: 1536px) and (min-width: 1280px){
+
+  #mambe_v3{
+    top: 300%;
+  }
+  
+  
+  #mambe_t5{
+    top: 367%;
+  }
+
+}
