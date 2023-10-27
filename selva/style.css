@@ -129,7 +129,7 @@ body {
   padding: 0.3%;
   left:4%;
   max-width: 40%;
-  top: 92%;
+  top: 95%;
   z-index: 100;
   right: auto;
 }
@@ -154,7 +154,7 @@ body {
   padding: 1%;
   left: 6%;
   max-width: 25%;
-  top: 250%;
+  top: 270%;
   right: auto;
   z-index: 100;
 }
@@ -169,7 +169,7 @@ body {
   padding: 0.3%;
   left:7%;
   max-width: 50%;
-  top: 315%;
+  top: 338%;
   z-index: 100;
   right: auto;
 }
@@ -225,4 +225,23 @@ body {
   max-width: 38%;
   top: 670%;
   right: auto;
+}
+
+/*--link1--*/
+#casa_lx{
+  font-size: 0.7vw;
+  color: black;
+  background-color: white;
+  text-align: left;
+  line-height: auto;
+  position: absolute;
+  padding: 0.5%;
+  left: auto;
+  max-width: 25%;
+  top: 805%;
+  right: 15%;
+}
+
+#casa_lx:hover{
+  filter: drop-shadow(0 0 0.5rem rgb(255, 255, 255));
 }
