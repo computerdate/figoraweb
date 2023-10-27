@@ -254,3 +254,22 @@ body {
   top: 690%;
   right: auto;
 }
+
+/*--link1--*/
+#casa_l1{
+  font-size: 0.7vw;
+  color: black;
+  background-color: white;
+  text-align: left;
+  line-height: auto;
+  position: absolute;
+  padding: 0.5%;
+  left: auto;
+  max-width: 25%;
+  top: 645%;
+  left: 30%;
+}
+
+#casa_l1:hover{
+  filter: drop-shadow(0 0 0.5rem rgb(255, 255, 255));
+}
