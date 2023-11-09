@@ -187,3 +187,14 @@ body {
 #casa_l1:hover{
   filter: drop-shadow(0 0 0.5rem rgb(255, 255, 255));
 }
+
+
+
+@media screen and (max-width: 2880px) and (min-width: 2560px){
+
+  #casa_l1{
+    top: 90%;
+    z-index: 1000;
+  }
+  
+}
