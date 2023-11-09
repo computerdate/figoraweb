@@ -161,7 +161,7 @@ body {
   padding: 0.5%;
   left: auto;
   max-width: 25%;
-  top: 480%;
+  top: 490%;
   left: 15%;
 }
 
@@ -233,4 +233,17 @@ body {
   z-index: 1000;
 }
 
+
+}
+
+
+
+@media screen and (max-width: 2880px) and (min-width: 2560px){
+
+  #casa_l1{
+    top: 390%;
+    left: 15%;
+    z-index: 1000;
+  }
+  
 }
