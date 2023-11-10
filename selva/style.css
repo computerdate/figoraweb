@@ -236,10 +236,11 @@ body {
   line-height: auto;
   position: absolute;
   padding: 0.5%;
-  left: auto;
+  left: 10%;
   max-width: 25%;
   top: 805%;
-  right: 15%;
+  right: auto;
+  z-index: 1000;
 }
 
 #casa_lx:hover{
@@ -251,7 +252,7 @@ body {
 
   #casa_lx{
     top: 643%;
-    z-index: 1000;
+    
   }
   
 }
